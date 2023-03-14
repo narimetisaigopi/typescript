@@ -1,0 +1,18 @@
+console.log("hello world");
+var age = 10;
+var collage = "vignan";
+var names = ["sai gopi", 'narimeti', 'lakshmi', 12];
+names.push(123);
+names.pop();
+names.push(false);
+names.push(1);
+names.push(0);
+console.log(names);
+names.push.apply(names, ["sasa", "1223", 1232, false]);
+names.length;
+console.log(names);
+var list = [12, 45, 56, 2422];
+console.log("list > " + list);
+var isSub = false;
+console.log(isSub);
+console.log(age + age);
